@@ -38,3 +38,9 @@
 ✅ Заполнены пропуски в Embarked значением 'S' (самый частый порт)
 ✅ Преобразовано Sex: female=1, male=0
 ✅ One-hot encoding для Embarked (создана Embarked_C, Embarked_Q, Embarked_S)
+
+
+| Метрика | Значение |
+|---------|----------|
+| **Accuracy** | 81% |
+| **Train/Test Split** | 80/20 |
