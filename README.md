@@ -30,6 +30,11 @@
 
 **Целевая переменная:** `Survived` (0 — не выжил, 1 — выжил)
 
+| Метрика | Значение |
+|---------|----------|
+| **Accuracy** | 81% |
+| **Train/Test Split** | 80/20 |
+
 ## 🔧 Обработка данных
 
 ```python
@@ -37,10 +42,4 @@
 ✅ Заполнены пропуски в Age медианой
 ✅ Заполнены пропуски в Embarked значением 'S' (самый частый порт)
 ✅ Преобразовано Sex: female=1, male=0
-✅ One-hot encoding для Embarked (создана Embarked_C, Embarked_Q, Embarked_S)```
-
-
-| Метрика | Значение |
-|---------|----------|
-| **Accuracy** | 81% |
-| **Train/Test Split** | 80/20 |
+✅ One-hot encoding для Embarked (создана Embarked_C, Embarked_Q, Embarked_S)
