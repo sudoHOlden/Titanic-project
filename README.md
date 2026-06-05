@@ -37,7 +37,7 @@
 ✅ Заполнены пропуски в Age медианой
 ✅ Заполнены пропуски в Embarked значением 'S' (самый частый порт)
 ✅ Преобразовано Sex: female=1, male=0
-✅ One-hot encoding для Embarked (создана Embarked_C, Embarked_Q, Embarked_S)
+✅ One-hot encoding для Embarked (создана Embarked_C, Embarked_Q, Embarked_S)```
 
 
 | Метрика | Значение |
